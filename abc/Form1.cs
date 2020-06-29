@@ -37,7 +37,7 @@ namespace WindowsFormsApp5
             comboBox1.Items.Add("Профессор");
             comboBox2.Items.Add("Без уч.степени");
             comboBox2.Items.Add("Кандидат наук");
-            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.RowHeadersVisible = true;
             dataGridView1.ColumnCount = 5;
             dataGridView1.Columns[0].HeaderText = "ФИО";
             dataGridView1.Columns[1].HeaderText = "Должность";
